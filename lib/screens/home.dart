@@ -67,6 +67,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 subtitle: Text(
                   note.content,
+                  maxLines: 1,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 15,
